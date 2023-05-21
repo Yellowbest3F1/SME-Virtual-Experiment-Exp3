@@ -5,13 +5,12 @@
     </p> -->
 
     <PDFView pdfUrl="/public/1.pdf" />
+    
     <!-- <PDFViewer pdfUrl="/public/1.pdf" /> -->
     <!-- <iframe :src="pdfUrl"></iframe>
     <iframe src="/public/photo.png"></iframe>
     <iframe src="/src/assets/avatar.png"></iframe>
     <img src="/public/photo.png" alt="Photo" />
-
-
     <img src="@/assets/avatar.png" alt="Photo" />     -->
     <!-- <img src="img" alt="Photo" /> -->
 
@@ -202,10 +201,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-// import PDFView  from '@/pages/exp1/IFPUG/pdfPreview.vue'
 import PDFView from "@/pages/exp1/IFPUG/pdfPreview.vue"
 import jsPdf from "/public/1.pdf"
-import img from "@/pages/exp1/IFPUG/photo.png"
 
 export default {
     name: 'Exp1_IFPUG',
